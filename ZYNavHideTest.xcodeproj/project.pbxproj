@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C604E0DA21F0702800BAF630 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C604E0D921F0702800BAF630 /* AppDelegate.m */; };
+		C604E0DD21F0702800BAF630 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C604E0DC21F0702800BAF630 /* ViewController.m */; };
+		C604E0E021F0702800BAF630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C604E0DE21F0702800BAF630 /* Main.storyboard */; };
+		C604E0E221F0702A00BAF630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C604E0E121F0702A00BAF630 /* Assets.xcassets */; };
+		C604E0E521F0702A00BAF630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C604E0E321F0702A00BAF630 /* LaunchScreen.storyboard */; };
+		C604E0E821F0702A00BAF630 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C604E0E721F0702A00BAF630 /* main.m */; };
+		C604E0F021F0704F00BAF630 /* ZYTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C604E0EF21F0704F00BAF630 /* ZYTestViewController.m */; };
+		C604E0F321F0708100BAF630 /* ZYBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C604E0F221F0708100BAF630 /* ZYBaseNavigationController.m */; };
+		C604E0F621F070FC00BAF630 /* ZYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C604E0F521F070FC00BAF630 /* ZYBaseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C604E0D521F0702800BAF630 /* ZYNavHideTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYNavHideTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C604E0D821F0702800BAF630 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C604E0D921F0702800BAF630 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C604E0DB21F0702800BAF630 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C604E0DC21F0702800BAF630 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C604E0DF21F0702800BAF630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C604E0E121F0702A00BAF630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C604E0E421F0702A00BAF630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C604E0E621F0702A00BAF630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C604E0E721F0702A00BAF630 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C604E0EE21F0704F00BAF630 /* ZYTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTestViewController.h; sourceTree = "<group>"; };
+		C604E0EF21F0704F00BAF630 /* ZYTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTestViewController.m; sourceTree = "<group>"; };
+		C604E0F121F0708100BAF630 /* ZYBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYBaseNavigationController.h; sourceTree = "<group>"; };
+		C604E0F221F0708100BAF630 /* ZYBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYBaseNavigationController.m; sourceTree = "<group>"; };
+		C604E0F421F070FC00BAF630 /* ZYBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYBaseViewController.h; sourceTree = "<group>"; };
+		C604E0F521F070FC00BAF630 /* ZYBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYBaseViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C604E0D221F0702800BAF630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C604E0CC21F0702800BAF630 = {
+			isa = PBXGroup;
+			children = (
+				C604E0D721F0702800BAF630 /* ZYNavHideTest */,
+				C604E0D621F0702800BAF630 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C604E0D621F0702800BAF630 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C604E0D521F0702800BAF630 /* ZYNavHideTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C604E0D721F0702800BAF630 /* ZYNavHideTest */ = {
+			isa = PBXGroup;
+			children = (
+				C604E0D821F0702800BAF630 /* AppDelegate.h */,
+				C604E0D921F0702800BAF630 /* AppDelegate.m */,
+				C604E0DB21F0702800BAF630 /* ViewController.h */,
+				C604E0DC21F0702800BAF630 /* ViewController.m */,
+				C604E0EE21F0704F00BAF630 /* ZYTestViewController.h */,
+				C604E0EF21F0704F00BAF630 /* ZYTestViewController.m */,
+				C604E0F421F070FC00BAF630 /* ZYBaseViewController.h */,
+				C604E0F521F070FC00BAF630 /* ZYBaseViewController.m */,
+				C604E0F121F0708100BAF630 /* ZYBaseNavigationController.h */,
+				C604E0F221F0708100BAF630 /* ZYBaseNavigationController.m */,
+				C604E0DE21F0702800BAF630 /* Main.storyboard */,
+				C604E0E121F0702A00BAF630 /* Assets.xcassets */,
+				C604E0E321F0702A00BAF630 /* LaunchScreen.storyboard */,
+				C604E0E621F0702A00BAF630 /* Info.plist */,
+				C604E0E721F0702A00BAF630 /* main.m */,
+			);
+			path = ZYNavHideTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C604E0D421F0702800BAF630 /* ZYNavHideTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C604E0EB21F0702A00BAF630 /* Build configuration list for PBXNativeTarget "ZYNavHideTest" */;
+			buildPhases = (
+				C604E0D121F0702800BAF630 /* Sources */,
+				C604E0D221F0702800BAF630 /* Frameworks */,
+				C604E0D321F0702800BAF630 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYNavHideTest;
+			productName = ZYNavHideTest;
+			productReference = C604E0D521F0702800BAF630 /* ZYNavHideTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C604E0CD21F0702800BAF630 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = zhenyu;
+				TargetAttributes = {
+					C604E0D421F0702800BAF630 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = C604E0D021F0702800BAF630 /* Build configuration list for PBXProject "ZYNavHideTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C604E0CC21F0702800BAF630;
+			productRefGroup = C604E0D621F0702800BAF630 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C604E0D421F0702800BAF630 /* ZYNavHideTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C604E0D321F0702800BAF630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C604E0E521F0702A00BAF630 /* LaunchScreen.storyboard in Resources */,
+				C604E0E221F0702A00BAF630 /* Assets.xcassets in Resources */,
+				C604E0E021F0702800BAF630 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C604E0D121F0702800BAF630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C604E0F621F070FC00BAF630 /* ZYBaseViewController.m in Sources */,
+				C604E0DD21F0702800BAF630 /* ViewController.m in Sources */,
+				C604E0E821F0702A00BAF630 /* main.m in Sources */,
+				C604E0DA21F0702800BAF630 /* AppDelegate.m in Sources */,
+				C604E0F021F0704F00BAF630 /* ZYTestViewController.m in Sources */,
+				C604E0F321F0708100BAF630 /* ZYBaseNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C604E0DE21F0702800BAF630 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C604E0DF21F0702800BAF630 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C604E0E321F0702A00BAF630 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C604E0E421F0702A00BAF630 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C604E0E921F0702A00BAF630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C604E0EA21F0702A00BAF630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C604E0EC21F0702A00BAF630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYNavHideTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ZYNavHideTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C604E0ED21F0702A00BAF630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYNavHideTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ZYNavHideTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C604E0D021F0702800BAF630 /* Build configuration list for PBXProject "ZYNavHideTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C604E0E921F0702A00BAF630 /* Debug */,
+				C604E0EA21F0702A00BAF630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C604E0EB21F0702A00BAF630 /* Build configuration list for PBXNativeTarget "ZYNavHideTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C604E0EC21F0702A00BAF630 /* Debug */,
+				C604E0ED21F0702A00BAF630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C604E0CD21F0702800BAF630 /* Project object */;
+}
